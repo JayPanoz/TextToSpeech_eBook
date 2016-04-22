@@ -16,10 +16,10 @@ Voici ce qu’il reste à faire pour ce projet, avec un calendrier suffisamment 
 
 ### Court terme
 
-- Ajouter une couverture.
+- ~~Ajouter une couverture.~~
 - ~~Réintégrer les résultats ePub 2 au kit (même si déprécié).~~
 - Compléter ARIA + les inflections `epub:type`.
-- Ajouter des contenus SVG, MathML, etc. (tout ce qui se trouve dans les specs EPUB 3, en somme).
+- ~~Ajouter des contenus SVG, MathML, etc.~~
 - Vérifier que tout est OK au niveau structure, sémantique, etc.
 
 ### Moyen terme
@@ -44,3 +44,4 @@ Voici ce qu’il reste à faire pour ce projet, avec un calendrier suffisamment 
 - Les tests sont systématiquement effectués avec les outils activés (VoiceOver, Talkback, etc.), des différences notables pouvant être reportés avec des fonctionnalités « light » comme « Parole » sur iOS, par exemple.
 - Les langues étrangères sont indiquées à l'aide de `xml:lang` (et pas de `lang`).
 - Les outils payants n’ont pas pu être testés.
+- Depuis ajout de MathML et SVG, Kindle Previewer ne peut plus convertir pour Kindle for iOS. La version précédente reste néanmoins à disposition.
