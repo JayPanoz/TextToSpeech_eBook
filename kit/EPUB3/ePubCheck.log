@@ -3,6 +3,9 @@ EPUB Validator
 Detected version: EPUB 3.0.1
 
 Results: The following problems were found in TestTTS_epub3.epub:
-	WARNING	OEBPS/Text/Section011.xhtml	13	9	CSS selector specifies absolute position.
+
+WARNING:	OEBPS/Text/Section014.xhtml	38	924	MathML should either have an alt text attribute or annotation-xml child element.
+
+WARNING:	OEBPS/Text/Section011.xhtml	13	9	CSS selector specifies absolute position.
 
 Validated using EpubCheck version 4.0.1.

@@ -54,7 +54,7 @@
 <item href="Text/Section011.xhtml" id="Section011.xhtml" media-type="application/xhtml+xml" />
 <item href="Text/Section012.xhtml" id="Section012.xhtml" media-type="application/xhtml+xml" />
 <item href="Text/Section013.xhtml" id="Section013.xhtml" media-type="application/xhtml+xml" />
-<item href="Text/Section014.xhtml" id="Section014.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section014.xhtml" id="Section014.xhtml" media-type="application/xhtml+xml" properties="mathml" />
 <item href="Text/Section015.xhtml" id="Section015.xhtml" media-type="application/xhtml+xml" />
 <item href="Text/Section016.xhtml" id="Section016.xhtml" media-type="application/xhtml+xml" />
 <item href="Text/Section017.xhtml" id="Section017.xhtml" media-type="application/xhtml+xml" />
@@ -64,6 +64,7 @@
 <item href="Text/Section021.xhtml" id="Section021.xhtml" media-type="application/xhtml+xml" />
 <item href="Text/Section022.xhtml" id="Section022.xhtml" media-type="application/xhtml+xml" />
 <item href="Text/Section023.xhtml" id="Section023.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/intercalaire.xhtml" id="intercalaire.xhtml" media-type="application/xhtml+xml" properties="svg" />
 <item href="Images/chap.png" id="chap.png" media-type="image/png" />
 <item href="Images/cover.png" id="cover.png" media-type="image/png" properties="cover-image"/>
 <item href="Images/jacinabox.PNG" id="jacinabox.PNG" media-type="image/png" />
@@ -89,6 +90,7 @@
 <itemref idref="Section015.xhtml" />
 <itemref idref="Section016.xhtml" />
 <itemref idref="Section017.xhtml" />
+<itemref idref="intercalaire.xhtml" />
 <itemref idref="Section018.xhtml" />
 <itemref idref="Section019.xhtml" />
 <itemref idref="Section020.xhtml" />

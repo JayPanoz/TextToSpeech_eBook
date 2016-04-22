@@ -16,9 +16,9 @@ Info(prcgen):I1047: Métadonnées ajoutées dc:Subject      "unicode"
 Info(prcgen):I1047: Métadonnées ajoutées dc:Contributor  "Jiminy Panoz"
 Info(prcgen):I1047: Métadonnées ajoutées dc:Rights       "CC-BY-NC 3.0"
 Info(prcgen):I1047: Métadonnées ajoutées dc:Description  "Un fichier permettant de tester le text-to-speech de votre appareil de lecture."
-Info(prcgen):I1002: Analyse des fichiers  0000024
+Info(prcgen):I1002: Analyse des fichiers  0000025
 Info(prcgen):I1003: Analyse du fichier     URL: Section001.xhtml
-Avertissement(htmlprocessor):W28004: La valeur absolue spécifiée pour la propriété CSS dans le contenu n'est pas supportée par les lecteurs Kindle. Veuillez utiliser % ou consulter les Directives de publication Kindle sur l'utilisation de propriété : 'line-height' Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-ub8cRt/OEBPS/Styles/reset.css
+Avertissement(htmlprocessor):W28004: La valeur absolue spécifiée pour la propriété CSS dans le contenu n'est pas supportée par les lecteurs Kindle. Veuillez utiliser % ou consulter les Directives de publication Kindle sur l'utilisation de propriété : 'line-height' Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Styles/reset.css
 Info(prcgen):I1003: Analyse du fichier     URL: Section002.xhtml
 Info(prcgen):I1003: Analyse du fichier     URL: Section003.xhtml
 Info(prcgen):I1003: Analyse du fichier     URL: Section004.xhtml
@@ -27,25 +27,57 @@ Info(prcgen):I1003: Analyse du fichier     URL: Section006.xhtml
 Info(prcgen):I1003: Analyse du fichier     URL: Section007.xhtml
 Info(prcgen):I1003: Analyse du fichier     URL: Section008.xhtml
 Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <abbr title="Société nationale des chemins de fer français">
-      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-ub8cRt/OEBPS/Text/Section009.xhtml     ligne : 0000042
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section009.xhtml     ligne : 0000042
 Info(prcgen):I1003: Analyse du fichier     URL: Section009.xhtml
 Info(prcgen):I1003: Analyse du fichier     URL: Section010.xhtml
 Info(prcgen):I1003: Analyse du fichier     URL: Section011.xhtml
-Avertissement(htmlprocessor):W28001: Le style CSS spécifié dans le contenu n'est pas supporté par les lecteurs Kindle. Suppression de la propriété CSS : 'max-width' Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-ub8cRt/OEBPS/Text/Section011.xhtml
+Avertissement(htmlprocessor):W28001: Le style CSS spécifié dans le contenu n'est pas supporté par les lecteurs Kindle. Suppression de la propriété CSS : 'max-width' Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section011.xhtml
 Info(prcgen):I1003: Analyse du fichier     URL: Section012.xhtml
 Avertissement(inputpreprocessor):W29004: Tag ouvert fermé de force:  <header id="header">
-      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-ub8cRt/OEBPS/Text/Section013.xhtml     ligne : 0000018
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section013.xhtml     ligne : 0000018
 Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <abbr title="confer">
-      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-ub8cRt/OEBPS/Text/Section013.xhtml     ligne : 0000034
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section013.xhtml     ligne : 0000034
 Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <abbr title="c’est-à-dire">
-      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-ub8cRt/OEBPS/Text/Section013.xhtml     ligne : 0000034
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section013.xhtml     ligne : 0000034
 Info(prcgen):I1003: Analyse du fichier     URL: Section013.xhtml
-Avertissement(inputpreprocessor):W29004: Tag ouvert fermé de force:  <header>
-      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-ub8cRt/OEBPS/Text/Section014.xhtml     ligne : 0000018
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <math class="inline" alttext="a au carré plus b au carré égal c au carré" xmlns="http://www.w3.org/1998/Math/MathML">
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section014.xhtml     ligne : 0000032
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <mrow>
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section014.xhtml     ligne : 0000032
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <msup>
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section014.xhtml     ligne : 0000032
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <mi>
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section014.xhtml     ligne : 0000032
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <mn>
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section014.xhtml     ligne : 0000032
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <mo>
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section014.xhtml     ligne : 0000032
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <math xmlns="http://www.w3.org/1998/Math/MathML">
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section014.xhtml     ligne : 0000038
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <mtable columnalign="right center left">
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section014.xhtml     ligne : 0000038
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <mtr>
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section014.xhtml     ligne : 0000038
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <mtd>
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section014.xhtml     ligne : 0000038
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <msup>
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section014.xhtml     ligne : 0000038
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <mrow>
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section014.xhtml     ligne : 0000038
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <mo>
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section014.xhtml     ligne : 0000038
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <mi>
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section014.xhtml     ligne : 0000038
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <mn>
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section014.xhtml     ligne : 0000038
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <mfrac>
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/Section014.xhtml     ligne : 0000038
 Info(prcgen):I1003: Analyse du fichier     URL: Section014.xhtml
 Info(prcgen):I1003: Analyse du fichier     URL: Section015.xhtml
 Info(prcgen):I1003: Analyse du fichier     URL: Section016.xhtml
 Info(prcgen):I1003: Analyse du fichier     URL: Section017.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: intercalaire.xhtml
+Avertissement(htmlprocessor):W28001: Le style CSS spécifié dans le contenu n'est pas supporté par les lecteurs Kindle. Suppression de la propriété CSS : 'max-height' Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Text/intercalaire.xhtml
 Info(prcgen):I1003: Analyse du fichier     URL: Section018.xhtml
 Info(prcgen):I1003: Analyse du fichier     URL: Section019.xhtml
 Info(prcgen):I1003: Analyse du fichier     URL: Section020.xhtml
@@ -57,10 +89,10 @@ Info(prcgen):I1015: Construction du fichier PRC
 Info(prcgen):I1006: Résolution des hyperliens
 Info(prcgen):I1010: Ecriture des hyperliens
 Info(prcgen):I1008: Résolution de l'emplacement de début de lecture
-Info(prcgen):I1013: Conversion et fusion du fichier image "/var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-ub8cRt/OEBPS/Images/jacinabox.PNG"
-Info(prcgen):I1013: Conversion et fusion du fichier image "/var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-ub8cRt/OEBPS/Images/chap.png"
-Info(prcgen):I1013: Conversion et fusion du fichier image "/var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-ub8cRt/OEBPS/Images/cover.png"
-Info(prcgen):I1014: Conversion et fusion du fichier média "/tmp/mbt-CN73bU7E0_3_10_12_E_32_139_14BE6_A447B000_A"
+Info(prcgen):I1013: Conversion et fusion du fichier image "/var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Images/jacinabox.PNG"
+Info(prcgen):I1013: Conversion et fusion du fichier image "/var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Images/chap.png"
+Info(prcgen):I1013: Conversion et fusion du fichier image "/var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Images/cover.png"
+Info(prcgen):I1014: Conversion et fusion du fichier média "/tmp/mbt-yUcDZ17E0_4_16_D_18_20_21E_AEC8_A41F7000_A"
 Info(pagemap):I8000: Aucune carte de page trouvée dans le livre
 Info(prcgen/inflections):I1012: Compilation des inflexions
 Info(prcgen):I1019: Construction de l'index dans l'enregistrement  0000000 Nom de l'index : $NCX
@@ -81,21 +113,23 @@ Info(prcgen):I1046: Plage UNICODE trouvée : Chinese, Japanese, and Korean (CJK)
 Info(prcgen):I1046: Plage UNICODE trouvée : Arrows [2190..21FF]
 Info(prcgen):I1046: Plage UNICODE trouvée : Miscellaneous Symbols [2600..26FF]
 Info(prcgen):I1046: Plage UNICODE trouvée : Currency Symbols [20A0..20CF]
-Info(prcgen):I1017: Construction du fichier PRC, compte d'enregistrement :   0000005
+Info(prcgen):I1017: Construction du fichier PRC, compte d'enregistrement :   0000007
 Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000000
 Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000001
 Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000002
 Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000003
 Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000004
+Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000005
+Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000006
 Info(prcgen):I1044: Taille d'enregistrement non compressé :   0004096
-Info(prcgen):I2001: Stats finales - TEXT:      000009500 bytes 000000005 enregistrements 
+Info(prcgen):I2001: Stats finales - TEXT:      000013909 bytes 000000007 enregistrements 
 Info(prcgen):I2002: Stats finales - PHOTOS:    000000000 bytes 000000000 enregistrements 
-Info(prcgen):I2003: Stats finales - INDEXES:   000000868 bytes 000000003 enregistrements 
-Info(prcgen):I2004: Stats finales - QUEUES:    000000037 bytes 000000005 enregistrements 
+Info(prcgen):I2003: Stats finales - INDEXES:   000000872 bytes 000000003 enregistrements 
+Info(prcgen):I2004: Stats finales - QUEUES:    000000046 bytes 000000007 enregistrements 
 Info(prcgen):I2005: Stats finales - CADRES:    000000088 bytes 000000002 enregistrements 
-Info(prcgen):I2006: Stats finales - AUTRE:     000511979 bytes 000000010 enregistrements 
-Info(prcgen):I2007: Stats finales - TOTAL:     000522472 bytes 000000020 enregistrements 
-Info(prcgen):I1039: Stats finales - texte compressé à (en % de la taille d'origine):  49.61%
+Info(prcgen):I2006: Stats finales - AUTRE:     000520909 bytes 000000010 enregistrements 
+Info(prcgen):I2007: Stats finales - TOTAL:     000535824 bytes 000000022 enregistrements 
+Info(prcgen):I1039: Stats finales - texte compressé à (en % de la taille d'origine):  51.69%
 Info(prcgen):I1040: L'identifiant de document est : "Test_Text-To-Speech"
 Info(prcgen):I1041: La version de format de fichier est V6
 Info(prcgen):I1031: Sauvegarde du fichier PRC
@@ -104,25 +138,30 @@ Info(prcgen):I1016: Construction du fichier PRC amélioré
 Info(prcgen):I1007: Résolution des liens mediaid
 Info(prcgen):I1011: Ecriture des liens mediaid
 Info(prcgen):I1009: Résolution des articles de guide
-Info(prcgen):I1014: Conversion et fusion du fichier média "/var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-ub8cRt/OEBPS/Images/jacinabox.PNG"
+Info(prcgen):I1014: Conversion et fusion du fichier média "/var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-U7ZSyQ/OEBPS/Images/jacinabox.PNG"
 Info(prcgen):I1019: Construction de l'index dans l'enregistrement  0000000 Nom de l'index : $FRAG
 Info(prcgen):I1019: Construction de l'index dans l'enregistrement  0000003 Nom de l'index : $SKEL
 Info(prcgen):I1019: Construction de l'index dans l'enregistrement  0000005 Nom de l'index : $GUIDE
 Info(prcgen):I1019: Construction de l'index dans l'enregistrement  0000008 Nom de l'index : $NCX
 Info(prcgen):I1029: L'index de recherche par défaut est : "$FRAG"
-Info(prcgen):I1017: Construction du fichier PRC, compte d'enregistrement :   0000009
-Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000005
-Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000006
+Info(prcgen):I1017: Construction du fichier PRC, compte d'enregistrement :   0000012
 Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000007
 Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000008
-Info(prcgen):I2001: Stats finales - TEXT:      000017123 bytes 000000009 enregistrements 
-Info(prcgen):I2003: Stats finales - INDEXES:   000004380 bytes 000000011 enregistrements 
-Info(prcgen):I2004: Stats finales - QUEUES:    000000055 bytes 000000009 enregistrements 
-Info(prcgen):I2005: Stats finales - CADRES:    000000148 bytes 000000003 enregistrements 
-Info(prcgen):I2006: Stats finales - AUTRE:     000009098 bytes 000000003 enregistrements 
-Info(prcgen):I2007: Stats finales - TOTAL:     000030804 bytes 000000026 enregistrements 
-Info(prcgen):I1039: Stats finales - texte compressé à (en % de la taille d'origine):  46.68%
+Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000009
+Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000010
+Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000011
+Info(prcgen):I2001: Stats finales - TEXT:      000021973 bytes 000000012 enregistrements 
+Info(prcgen):I2003: Stats finales - INDEXES:   000004448 bytes 000000011 enregistrements 
+Info(prcgen):I2004: Stats finales - QUEUES:    000000064 bytes 000000012 enregistrements 
+Info(prcgen):I2005: Stats finales - CADRES:    000000164 bytes 000000003 enregistrements 
+Info(prcgen):I2006: Stats finales - AUTRE:     000009099 bytes 000000003 enregistrements 
+Info(prcgen):I2007: Stats finales - TOTAL:     000035748 bytes 000000029 enregistrements 
+Info(prcgen):I1039: Stats finales - texte compressé à (en % de la taille d'origine):  48.01%
 Info(prcgen):I1041: La version de format de fichier est V8
-Info(prcgen):I15000: Taille approximative de fichier livrable Mobi standard :  0000234KB
-Info(prcgen):I15001:  Taille approximative de fichier livrable KF8 :  0000245KB
+Info(prcgen):I15000: Taille approximative de fichier livrable Mobi standard :  0000238KB
+Info(prcgen):I15001:  Taille approximative de fichier livrable KF8 :  0000250KB
 Info(prcgen):I1036: fichier Mobi construit avec succès
+
+
+
+Kindle for iOS : Kindle Previewer n’a pas réussi à convertir le livre.
