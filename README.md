@@ -14,7 +14,7 @@ Dans la mesure où il faut bien constater un relatif désintérêt pour l’acce
 
 Depuis plus d’un an, le projet ne peut avancer faute de contributions et, malheureusement, rien n’indique que la situation puisse s’arranger. Il faut donc tirer les conclusions qui s’imposent et reconnaitre que d’autres seraient certainement mieux placés pour gérer ce projet.
 
-Aussi, si vous êtes un organisme ou une association et que la reprise de ce repo vous intéresse, [merci de me contacter](@mailto:jiminy@chapalpanoz.com) pour que nous puissions en discuter.
+Aussi, si vous êtes un organisme ou une association et que la reprise de ce repo vous intéresse, [merci de me contacter](http://jiminy.chapalpanoz.com/contacter-2/) pour que nous puissions en discuter.
 
 ## TODO
 
