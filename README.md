@@ -8,6 +8,14 @@ Ce kit est loin d’être complet, il constitue une base sur laquelle beaucoup d
 
 Ce kit est placé sous licence [Creative Commons 0](https://creativecommons.org/publicdomain/zero/1.0/deed.fr). En d’autres termes, c’est comme si nous le transférions dans le domaine public.
 
+## Message à caractère informatif
+
+Dans la mesure où il faut bien constater un relatif désintérêt pour l’accessibilité et la synthèse vocale en particulier, je devine que ce projet aurait énormément à gagner en passant sous la responsabilité d’un organisme ou d’une association spécialisée sur le sujet (synergies, contributions, réseaux, etc.).
+
+Depuis plus d’un an, le projet ne peut avancer faute de contributions et, malheureusement, rien n’indique que la situation puisse s’arranger. Il faut donc tirer les conclusions qui s’imposent et reconnaitre que d’autres seraient certainement mieux placés pour gérer ce projet.
+
+Aussi, si vous êtes un organisme ou une association et que la reprise de ce repo vous intéresse, [merci de me contacter](@mailto:jiminy@chapalpanoz.com) pour que nous puissions en discuter.
+
 ## TODO
 
 La version EPUB3 a été créée à l’occasion du dépôt Github, **elle entraîne la dépréciation de la version ePub 2.** Néanmoins, elle n’est qu’une base sur laquelle beaucoup de choses vont devoir être entreprises.
