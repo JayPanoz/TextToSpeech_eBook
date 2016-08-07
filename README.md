@@ -12,6 +12,8 @@ Ce kit est placé sous licence [Creative Commons 0](https://creativecommons.org/
 
 Dans la mesure où il faut bien constater un relatif désintérêt pour l’accessibilité et la synthèse vocale en particulier, je devine que ce projet aurait énormément à gagner en passant sous la responsabilité d’un organisme ou d’une association spécialisée sur le sujet (synergies, contributions, réseaux, etc.).
 
+En outre, cela faciliterait grandement les tests puisque des utilisateurs réels de cette technologie pourraient manipuler le kit et fournir des résultats plus précis, en utilisant des fonctionnalités que je n’utilise peut-être pas.
+
 Depuis plus d’un an, le projet ne peut avancer faute de contributions et, malheureusement, rien n’indique que la situation puisse s’arranger. Il faut donc tirer les conclusions qui s’imposent et reconnaitre que d’autres seraient certainement mieux placés pour gérer ce projet.
 
 Aussi, si vous êtes un organisme ou une association et que la reprise de ce repo vous intéresse, [merci de me contacter](http://jiminy.chapalpanoz.com/contacter-2/) pour que nous puissions en discuter.
