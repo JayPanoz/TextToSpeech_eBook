@@ -19,7 +19,7 @@ if ('speechSynthesis' in window) {
 	for (var i = 0; i < controls.length; i++) {
 	  var control = controls[i];
 		var button = document.createElement('button');
-		button.setAttribute('role', 'button');
+		button.setAttribute('type', 'button');
 		button.classList.add('tts-control');
 		button.id = control;
 		button.innerText = control;
