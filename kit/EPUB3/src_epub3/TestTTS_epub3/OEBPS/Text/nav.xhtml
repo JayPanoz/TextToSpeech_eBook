@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="fr" xml:lang="fr">
-  <head>
-  <meta charset="utf-8"/>
-    <link href="../Styles/reset.css" type="text/css" rel="stylesheet"/>
-    <style type="text/css">
-    nav#landmarks { display:none; }
-    ol { list-style-type: none; }
-    </style>
-  </head>
-  <body xml:lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <link href="../Styles/reset.css" type="text/css" rel="stylesheet" />
+  <style type="text/css">
+    nav#landmarks {
+      display: none;
+    }
+
+    ol {
+      list-style-type: none;
+    }
+  </style>
+</head>
+
+<body xml:lang="fr">
   <section epub:type="frontmatter">
-    <nav epub:type="toc" id="toc">
+    <nav role="doc-toc" epub:type="toc" id="toc">
       <h1>Table of Contents</h1>
       <ol>
         <li>
@@ -74,37 +81,38 @@
           <a epub:type="titlepage" href="../Text/Section001.xhtml">Page de titre</a>
         </li>
         <li>
-          <a epub:type="dedication" href="../Text/Section003.xhtml">Dédicace</a>
+          <a role="doc-dedication" epub:type="dedication" href="../Text/Section003.xhtml">Dédicace</a>
         </li>
         <li>
-          <a epub:type="foreword" href="../Text/Section004.xhtml">Avant-propos</a>
+          <a role="doc-foreword" epub:type="foreword" href="../Text/Section004.xhtml">Avant-propos</a>
         </li>
         <li>
-          <a epub:type="preface" href="../Text/Section006.xhtml">Préface</a>
+          <a role="doc-preface" epub:type="preface" href="../Text/Section006.xhtml">Préface</a>
         </li>
         <li>
           <a epub:type="bodymatter" href="../Text/Section009.xhtml">Texte</a>
         </li>
         <li>
-          <a epub:type="glossary" href="../Text/Section019.xhtml">Glossaire</a>
+          <a role="doc-glossary" epub:type="glossary" href="../Text/Section019.xhtml">Glossaire</a>
         </li>
         <li>
-          <a epub:type="bibliography" href="../Text/Section020.xhtml">Bibliographie</a>
+          <a role="doc-bibliography" epub:type="bibliography" href="../Text/Section020.xhtml">Bibliographie</a>
         </li>
         <li>
-          <a epub:type="index" href="../Text/Section021.xhtml">Index</a>
+          <a role="doc-index" epub:type="index" href="../Text/Section021.xhtml">Index</a>
         </li>
         <li>
-          <a epub:type="acknowledgments" href="../Text/Section022.xhtml">Remerciements</a>
+          <a role="doc-acknowledgments" epub:type="acknowledgments" href="../Text/Section022.xhtml">Remerciements</a>
         </li>
         <li>
-          <a epub:type="toc" href="../Text/nav.xhtml">Table des matières</a>
+          <a role="doc-toc" epub:type="toc" href="../Text/nav.xhtml">Table des matières</a>
         </li>
         <li>
-          <a epub:type="colophon" href="../Text/Section023.xhtml">Colophon</a>
+          <a role="doc-colophon" epub:type="colophon" href="../Text/Section023.xhtml">Colophon</a>
         </li>
       </ol>
     </nav>
-    </section>
+  </section>
 </body>
+
 </html>

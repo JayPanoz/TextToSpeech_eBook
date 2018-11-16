@@ -1,101 +1,113 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE html>
 <html xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+
 <head>
-  <meta charset="utf-8"/>
+  <meta charset="utf-8" />
   <title>Test Text-To-Speech</title>
-  <link href="../Styles/reset.css" type="text/css" rel="stylesheet"/>
-  
-<style type="text/css">
-img {width: 100%; max-width: 100%; height: auto;}
-  .screen-reader-text {
-        clip: rect(1px, 1px, 1px, 1px);
-        position: absolute !important;
-        height: 1px;
-        width: 1px;
-        overflow: hidden;
-  }
-</style>
+  <link href="../Styles/reset.css" type="text/css" rel="stylesheet" />
+
+  <style type="text/css">
+    img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .screen-reader-text {
+      clip: rect(1px, 1px, 1px, 1px);
+      position: absolute !important;
+      height: 1px;
+      width: 1px;
+      overflow: hidden;
+    }
+  </style>
 </head>
 
 <body xml:lang="fr">
   <section epub:type="bodymatter">
-  <section epub:type="chapter">
-    <h1 id="titre-romain-sans-title" title="Chapitre 2">II.</h1>
+    <section role="doc-chapter" epub:type="chapter">
+      <h1 id="titre-romain-sans-title" title="Chapitre 2">II.</h1>
 
-    <p id="del-ins"><del>Il était encore une fois</del> <ins>Débutons d’une autre manière.</ins></p>
+      <p id="del-ins"><del>Il était encore une fois</del> <ins>Débutons d’une autre manière.</ins></p>
 
-    <blockquote cite="https://www.vitsoe.com/gb/about/good-design" id="citation">
-      <p><b>Good design is honest</b><br/>
-      It does not make a product more innovative, powerful or valuable than it really is. It does not attempt to manipulate the consumer with promises that cannot be kept. — <cite>Dieter Rams</cite></p>
-    </blockquote>
-    <pre id="pre-code"><code>p {
+      <blockquote cite="https://www.vitsoe.com/gb/about/good-design" id="citation">
+        <p><b>Good design is honest</b><br />
+          It does not make a product more innovative, powerful or valuable than it really is. It does not attempt to
+          manipulate the consumer with promises that cannot be kept. — <cite>Dieter Rams</cite></p>
+      </blockquote>
+      <pre id="pre-code"><code>p {
    font-size: 1em;
    line-height: 1.5;
    text-indent: 0;
 }
 </code></pre>
 
-    <p id="ligatures-parentheses">Et si nous regardions ce que les images donnent&#160;? Elles s’aﬃchent à l’écran pour ceux qui voient mais s’eﬀaçent-elles (c'est-à-dire que le moteur de rendu vocal ne les prendra pas en compte) pour ceux qui ne voient pas&#160;?</p>
+      <p id="ligatures-parentheses">Et si nous regardions ce que les images donnent&#160;? Elles s’aﬃchent à l’écran
+        pour ceux qui voient mais s’eﬀaçent-elles (c'est-à-dire que le moteur de rendu vocal ne les prendra pas en
+        compte) pour ceux qui ne voient pas&#160;?</p>
 
-    <section epub:type="subchapter">
-      <h2 id="sigil_toc_id_3">Tests images EPUB&#160;2</h2>
+      <section epub:type="subchapter">
+        <h2 id="sigil_toc_id_3">Tests images EPUB&#160;2</h2>
 
-      <div id="image-sans-alt"><img src="../Images/jacinabox.PNG" alt=""/></div>
+        <div id="image-sans-alt"><img src="../Images/jacinabox.PNG" alt="" /></div>
 
-      <p>Voyons ce que cela peut donner avec du texte alternatif…</p>
+        <p>Voyons ce que cela peut donner avec du texte alternatif…</p>
 
-      <div id="image-avec-alt"><img src="../Images/jacinabox.PNG" alt="Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en avant."/></div>
+        <div id="image-avec-alt"><img src="../Images/jacinabox.PNG" alt="Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en avant." /></div>
 
-      <p>Et si nous cachons du texte dans la <code>div</code> avec <code>display:none</code>&#160;?</p>
+        <p>Et si nous cachons du texte dans la <code>div</code> avec <code>display:none</code>&#160;?</p>
 
-      <div id="image-avec-display">
-        <img src="../Images/jacinabox.PNG" alt=""/>
+        <div id="image-avec-display">
+          <img src="../Images/jacinabox.PNG" alt="" />
 
-        <p style="display:none">Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en avant.</p>
-      </div>
+          <p style="display:none">Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en avant.</p>
+        </div>
 
-      <p>Et si nous cachons du texte avec <code>visibility:hidden</code>&#160;?</p>
+        <p>Et si nous cachons du texte avec <code>visibility:hidden</code>&#160;?</p>
 
-      <div id="image-avec-visibility">
-        <img src="../Images/jacinabox.PNG" alt=""/>
+        <div id="image-avec-visibility">
+          <img src="../Images/jacinabox.PNG" alt="" />
 
-        <p style="visibility:hidden">Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en avant.</p>
-      </div>
+          <p style="visibility:hidden">Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en
+            avant.</p>
+        </div>
 
-      <aside id="aside">
-        <p>Et si nous testions du contenu secondaire&#160;?</p>
-      </aside>
+        <aside id="aside">
+          <p>Et si nous testions du contenu secondaire&#160;?</p>
+        </aside>
 
-      <div id="image-avec-clip">
-        <img src="../Images/jacinabox.PNG" alt=""/>
+        <div id="image-avec-clip">
+          <img src="../Images/jacinabox.PNG" alt="" />
 
-        <p class="screen-reader-text">Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en avant.</p>
-      </div>
+          <p class="screen-reader-text">Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en
+            avant.</p>
+        </div>
+      </section>
+
+      <section epub:type="subchapter">
+        <h2 id="sigil_toc_id_4">Tests images EPUB&#160;3</h2>
+
+        <p>Voyons ce que cela peut donner avec du texte alternatif…</p>
+
+        <figure id="figure-avec-alt"><img src="../Images/jacinabox.PNG" alt="Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en avant." /></figure>
+
+        <p>Et si utilisons <code>figcaption</code>&#160;?</p>
+
+        <figure id="figure-avec-figcaption">
+          <img src="../Images/jacinabox.PNG" alt="" />
+
+          <figcaption>Le design minimaliste met le contenu en avant.</figcaption>
+        </figure>
+
+        <aside id="aside-hidden" aria-hidden="true">
+          <p>Et si nous testions du contenu secondaire caché à l’aide de l’attribut <code>aria-hidden</code>&#160;?</p>
+
+          <p xml:lang="ja-JP" id="texte-japonais">柔道一班並ニ其教育上ノ價値。</p>
+        </aside>
+      </section>
     </section>
-
-    <section epub:type="subchapter">
-      <h2 id="sigil_toc_id_4">Tests images EPUB&#160;3</h2>
-
-      <p>Voyons ce que cela peut donner avec du texte alternatif…</p>
-
-      <figure id="figure-avec-alt"><img src="../Images/jacinabox.PNG" alt="Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en avant."/></figure>
-
-      <p>Et si utilisons <code>figcaption</code>&#160;?</p>
-
-      <figure id="figure-avec-figcaption">
-        <img src="../Images/jacinabox.PNG" alt=""/>
-
-        <figcaption>Le design minimaliste met le contenu en avant.</figcaption>
-      </figure>
-
-      <aside id="aside-hidden" aria-hidden="true">
-        <p>Et si nous testions du contenu secondaire caché à l’aide de l’attribut <code>aria-hidden</code>&#160;?</p>
-
-        <p xml:lang="ja-JP" id="texte-japonais">柔道一班並ニ其教育上ノ價値。</p>
-      </aside>
-    </section>
-  </section>
   </section>
 </body>
+
 </html>
