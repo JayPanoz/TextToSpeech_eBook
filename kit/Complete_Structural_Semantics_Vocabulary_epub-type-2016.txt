@@ -1,0 +1,184 @@
+EPUB 3 Structural Semantics Vocabulary
+5 January 2016 
+https://idpf.github.io/epub-vocabs/structure/
+
+(epub:type="xxx")
+
+Legend:
++ present in this ePub
+- missing in this ePub
+! present in this ePub but deprecated
+
+
+
+Document partitions
+        +cover
+        +frontmatter
+        +bodymatter
+        +backmatter
+
+Document divisions
+        -volume
+        -part
+        +chapter
+        !subchapter [deprecated]
+        -division
+
+Document sections and components
+        abstract [draft]
+        +foreword
+        +preface
+        +prologue
+        +introduction
+        +preamble
+        +conclusion
+        +epilogue
+        +afterword
+        +epigraph
+
+Document navigation
+        +toc
+        toc-brief [draft]
+        +landmarks
+        -loa
+        -loi
+        -lot
+        -lov
+
+Document reference sections
+        +appendix
+        +colophon
+        credits [draft]
+        keywords [draft]
+
+Indexes
+        +index
+        -index-headnotes
+        -index-legend
+        -index-group
+        -index-entry-list
+        -index-entry
+        -index-term
+        -index-editor-note
+        -index-locator
+        -index-locator-list
+        -index-locator-range
+        -index-xref-preferred
+        -index-xref-related
+        -index-term-category
+        -index-term-categories
+
+Glossaries
+        +glossary
+        +glossterm
+        +glossdef
+
+Bibliographies
+        +bibliography
+        +biblioentry
+
+Preliminary sections and components
+        +titlepage
+        -halftitlepage
+        +copyright-page
+        seriespage [draft]
+        +acknowledgments
+        -imprint
+        -imprimatur
+        -contributors
+        -other-credits
+        -errata
+        +dedication
+        -revision-history
+
+Complementary content
+        case-study [draft]
+        help [deprecated]
+        marginalia [deprecated]
+        -notice
+        pullquote [draft]
+        sidebar [deprecated]
+        -tip
+        warning [deprecated]
+
+Titles and headings
+        -halftitle
+        +fulltitle
+        -covertitle
+        -title
+        +subtitle
+        label [draft]
+        ordinal [draft]
+        -bridgehead
+
+Educational content
+    Learning objectives
+        -learning-objective
+        learning-objectives [draft]
+        learning-outcome [draft]
+        learning-outcomes [draft]
+        -learning-resource
+        learning-resources [draft]
+        learning-standard [draft]
+        learning-standards [draft]
+    Testing
+        answer [draft]
+        answers [draft]
+        -assessment
+        assessments [draft]
+        feedback [draft]
+        fill-in-the-blank-problem [draft]
+        general-problem [draft]
+        -qna
+        match-problem [draft]
+        multiple-choice-problem [draft]
+        practice [draft]
+        question [draft]
+        practices [draft]
+        true-false-problem [draft]
+
+Comics
+        -panel
+        -panel-group
+        -balloon
+        -text-area
+        -sound-area
+
+Notes and annotations
+        annotation [deprecated]
+        note [deprecated]
+        +footnote
+        -endnote
+        rearnote [deprecated]
+        +footnotes
+        -endnotes
+        rearnotes [deprecated]
+
+References
+        annoref [deprecated]
+        biblioref [draft]
+        glossref [draft]
+        +noteref
+        backlink [draft]
+
+Document text
+        credit [draft]
+        -keyword
+        +topic-sentence
+        -concluding-sentence
+
+Pagination
+        +pagebreak
+        -page-list
+
+Tables
+        -table
+        -table-row
+        -table-cell
+
+Lists
+        -list
+        -list-item
+
+Figures
+        -figure
