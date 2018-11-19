@@ -1,46 +1,176 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE html>
 <html xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+
 <head>
-  <meta charset="utf-8"/>
+  <meta charset="utf-8" />
   <title>Test Text-To-Speech</title>
-  <link href="../Styles/reset.css" type="text/css" rel="stylesheet"/>
-  
-<style type="text/css">
-.intro {font-weight: bold;}
-math {display: block; margin: 1.5em auto;}
-.inline {display: inline; margin: 0;}
-</style>
+  <link href="../Styles/reset.css" type="text/css" rel="stylesheet" />
+
+  <style type="text/css">
+    .intro {
+      font-weight: bold;
+    }
+
+    math {
+      display: block;
+      margin: 1.5em auto;
+    }
+
+    .inline {
+      display: inline;
+      margin: 0;
+    }
+  </style>
 </head>
 
 <body xml:lang="fr">
   <section epub:type="bodymatter">
-  <section role="doc-chapter" epub:type="chapter">
+    <section role="doc-chapter" epub:type="chapter">
       <h1>Chapitre 5</h1>
 
-	<section epub:type="subchapter">
-	  <h2>Span parasites</h2>
-      <p class="intro" epub:type="topic-sentence">Regardons si des <code>span</code> autour de chaque mot peuvent dégrader la synthèse vocale comme cela est le cas pour les fichiers à mise en page fixe avec VoiceOver.</p>
+      <!-- <section epub:type="subchapter"> -->
+      <section>
+        <h2>Span parasites</h2>
+        <p class="intro" epub:type="topic-sentence">Regardons si des <code>span</code> autour de chaque mot peuvent
+          dégrader la synthèse vocale comme cela est le cas pour les fichiers à mise en page fixe avec VoiceOver.</p>
 
-    <p id="span-all"><span>Il</span> <span>y</span> <span>a</span> <span>aujourd'hui</span> <span>trois</span> <span>cent</span> <span>quarante-huit</span> <span>ans</span> <span>six</span> <span>mois</span> <span>et</span> <span>dix-neuf</span> <span>jours</span> <span>que</span> <span>les</span> <span>Parisiens</span> <span>s'éveillèrent</span> <span>au</span> <span>bruit</span> <span>de</span> <span>toutes</span> <span>les</span> <span>cloches</span> <span>sonnant</span> <span>à</span> <span>grande</span> <span>volée</span> <span>dans</span> <span>la</span> <span>triple</span> <span>enceinte</span> <span>de</span> <span>la</span> <span>Cité</span>, <span>de</span> <span>l'Université</span> <span>et</span> <span>de</span> <span>la</span> <span>Ville</span>.</p>
+        <p id="span-all"><span>Il</span> <span>y</span> <span>a</span> <span>aujourd'hui</span> <span>trois</span>
+          <span>cent</span> <span>quarante-huit</span> <span>ans</span> <span>six</span> <span>mois</span> <span>et</span>
+          <span>dix-neuf</span> <span>jours</span> <span>que</span> <span>les</span> <span>Parisiens</span> <span>s'éveillèrent</span>
+          <span>au</span> <span>bruit</span> <span>de</span> <span>toutes</span> <span>les</span> <span>cloches</span>
+          <span>sonnant</span> <span>à</span> <span>grande</span> <span>volée</span> <span>dans</span> <span>la</span>
+          <span>triple</span> <span>enceinte</span> <span>de</span> <span>la</span> <span>Cité</span>, <span>de</span>
+          <span>l'Université</span> <span>et</span> <span>de</span> <span>la</span> <span>Ville</span>.</p>
+      </section>
+
+      <!-- <section epub:type="subchapter"> -->
+      <section>
+        <h2>MathML</h2>
+
+        <h3>Avec texte alternatif</h3>
+
+        <p>Nous allons prouver le théorème de Pythagore&#160;: <math class="inline" alttext="a au carré plus b au carré égal c au carré"
+            xmlns="http://www.w3.org/1998/Math/MathML">
+            <mrow>
+              <msup>
+                <mi> a </mi>
+                <mn>2</mn>
+              </msup>
+              <mo> + </mo>
+              <msup>
+                <mi> b </mi>
+                <mn>2</mn>
+              </msup>
+              <mo> = </mo>
+              <msup>
+                <mi> c </mi>
+                <mn>2</mn>
+              </msup>
+            </mrow>
+          </math></p>
+
+        <h3>Sans texte alternatif</h3>
+
+        <p>Nous pouvons le prouver de façon algebrique, en montrant que l’aire du grand carré est égale à l’aire du
+          carré interieur, ajoutée à l’aire des 4 triangles&#160;:</p>
+
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <mtable columnalign="right center left">
+            <mtr>
+              <mtd>
+                <msup>
+                  <mrow>
+                    <mo> ( </mo>
+                    <mi> a </mi>
+                    <mo> + </mo>
+                    <mi> b </mi>
+                    <mo> ) </mo>
+                  </mrow>
+                  <mn> 2 </mn>
+                </msup>
+              </mtd>
+              <mtd>
+                <mo> = </mo>
+              </mtd>
+              <mtd>
+                <msup>
+                  <mi> c </mi>
+                  <mn>2</mn>
+                </msup>
+                <mo> + </mo>
+                <mn> 4 </mn>
+                <mo> ⋅ </mo>
+                <mo>(</mo>
+                <mfrac>
+                  <mn> 1 </mn>
+                  <mn> 2 </mn>
+                </mfrac>
+                <mi> a </mi>
+                <mi> b </mi>
+                <mo>)</mo>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <msup>
+                  <mi> a </mi>
+                  <mn>2</mn>
+                </msup>
+                <mo> + </mo>
+                <mn> 2 </mn>
+                <mi> a </mi>
+                <mi> b </mi>
+                <mo> + </mo>
+                <msup>
+                  <mi> b </mi>
+                  <mn>2</mn>
+                </msup>
+              </mtd>
+              <mtd>
+                <mo> = </mo>
+              </mtd>
+              <mtd>
+                <msup>
+                  <mi> c </mi>
+                  <mn>2</mn>
+                </msup>
+                <mo> + </mo>
+                <mn> 2 </mn>
+                <mi> a </mi>
+                <mi> b </mi>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <msup>
+                  <mi> a </mi>
+                  <mn>2</mn>
+                </msup>
+                <mo> + </mo>
+                <msup>
+                  <mi> b </mi>
+                  <mn>2</mn>
+                </msup>
+              </mtd>
+              <mtd>
+                <mo> = </mo>
+              </mtd>
+              <mtd>
+                <msup>
+                  <mi> c </mi>
+                  <mn>2</mn>
+                </msup>
+              </mtd>
+            </mtr>
+          </mtable>
+        </math>
+
+        <p>Source&#160;: <a href="https://developer.mozilla.org/fr/docs/Web/MathML/Exemples/MathML_Theoreme_de_Pythagore">Mozilla
+            Developer Network</a></p>
+      </section>
     </section>
-  
-    <section epub:type="subchapter">
-  	  <h2>MathML</h2>
-  	  
-  	  <h3>Avec texte alternatif</h3>
-  	  
-  	  <p>Nous allons prouver le théorème de Pythagore&#160;: <math class="inline" alttext="a au carré plus b au carré égal c au carré" xmlns="http://www.w3.org/1998/Math/MathML"> <mrow> <msup><mi> a </mi><mn>2</mn></msup> <mo> + </mo> <msup><mi> b </mi><mn>2</mn></msup> <mo> = </mo> <msup><mi> c </mi><mn>2</mn></msup> </mrow> </math></p>
-
-  	  <h3>Sans texte alternatif</h3>
-
-  	  <p>Nous pouvons le prouver de façon algebrique, en montrant que l’aire du grand carré est égale à l’aire du carré interieur, ajoutée à l’aire des 4 triangles&#160;:</p> 
-  	  
-  	  <math xmlns="http://www.w3.org/1998/Math/MathML"> <mtable columnalign="right center left"> <mtr> <mtd> <msup> <mrow> <mo> ( </mo> <mi> a </mi> <mo> + </mo> <mi> b </mi> <mo> ) </mo> </mrow> <mn> 2 </mn> </msup> </mtd> <mtd> <mo> = </mo> </mtd> <mtd> <msup><mi> c </mi><mn>2</mn></msup> <mo> + </mo> <mn> 4 </mn> <mo> ⋅ </mo> <mo>(</mo> <mfrac> <mn> 1 </mn> <mn> 2 </mn> </mfrac> <mi> a </mi><mi> b </mi> <mo>)</mo> </mtd> </mtr> <mtr> <mtd> <msup><mi> a </mi><mn>2</mn></msup> <mo> + </mo> <mn> 2 </mn><mi> a </mi><mi> b </mi> <mo> + </mo> <msup><mi> b </mi><mn>2</mn></msup> </mtd> <mtd> <mo> = </mo> </mtd> <mtd> <msup><mi> c </mi><mn>2</mn></msup> <mo> + </mo> <mn> 2 </mn><mi> a </mi><mi> b </mi> </mtd> </mtr> <mtr> <mtd> <msup><mi> a </mi><mn>2</mn></msup> <mo> + </mo> <msup><mi> b </mi><mn>2</mn></msup> </mtd> <mtd> <mo> = </mo> </mtd> <mtd> <msup><mi> c </mi><mn>2</mn></msup> </mtd> </mtr> </mtable> </math>
-
-	  <p>Source&#160;: <a href="https://developer.mozilla.org/fr/docs/Web/MathML/Exemples/MathML_Theoreme_de_Pythagore">Mozilla Developer Network</a></p>
-    </section>
-  </section>
   </section>
 </body>
+
 </html>
