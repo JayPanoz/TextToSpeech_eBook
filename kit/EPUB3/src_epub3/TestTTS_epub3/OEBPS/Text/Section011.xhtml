@@ -24,7 +24,7 @@
   </style>
 </head>
 
-<body xml:lang="fr">
+<body>
   <section epub:type="bodymatter">
     <section role="doc-chapter" epub:type="chapter">
       <h1 id="titre-romain-sans-title" title="Chapitre 2">II.</h1>
@@ -47,65 +47,67 @@
         pour ceux qui voient mais s’eﬀaçent-elles (c'est-à-dire que le moteur de rendu vocal ne les prendra pas en
         compte) pour ceux qui ne voient pas&#160;?</p>
 
-      <section epub:type="subchapter">
-        <h2 id="sigil_toc_id_3">Tests images EPUB&#160;2</h2>
 
-        <div id="image-sans-alt"><img src="../Images/jacinabox.PNG" alt="" /></div>
+      <h2 id="sigil_toc_id_3">Tests images EPUB&#160;2</h2>
 
-        <p>Voyons ce que cela peut donner avec du texte alternatif…</p>
+      <div id="image-sans-alt"><img src="../Images/jacinabox.PNG" alt="" /></div>
 
-        <div id="image-avec-alt"><img src="../Images/jacinabox.PNG" alt="Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en avant." /></div>
+      <p>Voyons ce que cela peut donner avec du texte alternatif…</p>
 
-        <p>Et si nous cachons du texte dans la <code>div</code> avec <code>display:none</code>&#160;?</p>
+      <div id="image-avec-alt"><img src="../Images/jacinabox.PNG"
+          alt="Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en avant." /></div>
 
-        <div id="image-avec-display">
-          <img src="../Images/jacinabox.PNG" alt="" />
+      <p>Et si nous cachons du texte dans la <code>div</code> avec <code>display:none</code>&#160;?</p>
 
-          <p style="display:none">Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en avant.</p>
-        </div>
+      <div id="image-avec-display">
+        <img src="../Images/jacinabox.PNG" alt="" />
 
-        <p>Et si nous cachons du texte avec <code>visibility:hidden</code>&#160;?</p>
+        <p style="display:none">Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en avant.</p>
+      </div>
 
-        <div id="image-avec-visibility">
-          <img src="../Images/jacinabox.PNG" alt="" />
+      <p>Et si nous cachons du texte avec <code>visibility:hidden</code>&#160;?</p>
 
-          <p style="visibility:hidden">Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en
-            avant.</p>
-        </div>
+      <div id="image-avec-visibility">
+        <img src="../Images/jacinabox.PNG" alt="" />
 
-        <aside id="aside">
-          <p>Et si nous testions du contenu secondaire&#160;?</p>
-        </aside>
+        <p style="visibility:hidden">Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en
+          avant.</p>
+      </div>
 
-        <div id="image-avec-clip">
-          <img src="../Images/jacinabox.PNG" alt="" />
+      <aside id="aside">
+        <p>Et si nous testions du contenu secondaire&#160;?</p>
+      </aside>
 
-          <p class="screen-reader-text">Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en
-            avant.</p>
-        </div>
-      </section>
+      <div id="image-avec-clip">
+        <img src="../Images/jacinabox.PNG" alt="" />
 
-      <section epub:type="subchapter">
-        <h2 id="sigil_toc_id_4">Tests images EPUB&#160;3</h2>
+        <p class="screen-reader-text">Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en
+          avant.</p>
+      </div>
 
-        <p>Voyons ce que cela peut donner avec du texte alternatif…</p>
 
-        <figure id="figure-avec-alt"><img src="../Images/jacinabox.PNG" alt="Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en avant." /></figure>
 
-        <p>Et si utilisons <code>figcaption</code>&#160;?</p>
+      <h2 id="sigil_toc_id_4">Tests images EPUB&#160;3</h2>
 
-        <figure id="figure-avec-figcaption">
-          <img src="../Images/jacinabox.PNG" alt="" />
+      <p>Voyons ce que cela peut donner avec du texte alternatif…</p>
 
-          <figcaption>Le design minimaliste met le contenu en avant.</figcaption>
-        </figure>
+      <figure id="figure-avec-alt"><img src="../Images/jacinabox.PNG"
+          alt="Capture d’écran du site Jacinabox. Le design minimaliste met le contenu en avant." /></figure>
 
-        <aside id="aside-hidden" aria-hidden="true">
-          <p>Et si nous testions du contenu secondaire caché à l’aide de l’attribut <code>aria-hidden</code>&#160;?</p>
+      <p>Et si utilisons <code>figcaption</code>&#160;?</p>
 
-          <p xml:lang="ja-JP" id="texte-japonais">柔道一班並ニ其教育上ノ價値。</p>
-        </aside>
-      </section>
+      <figure id="figure-avec-figcaption">
+        <img src="../Images/jacinabox.PNG" alt="" />
+
+        <figcaption>Le design minimaliste met le contenu en avant.</figcaption>
+      </figure>
+
+      <aside id="aside-hidden" aria-hidden="true">
+        <p>Et si nous testions du contenu secondaire caché à l’aide de l’attribut <code>aria-hidden</code>&#160;?</p>
+
+        <p xml:lang="ja-JP" id="texte-japonais">柔道一班並ニ其教育上ノ價値。</p>
+      </aside>
+
     </section>
   </section>
 </body>
