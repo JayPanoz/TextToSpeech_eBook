@@ -18,15 +18,17 @@ Voici ce qu’il reste à faire pour ce projet, avec un calendrier suffisamment 
 
 - ~~Ajouter une couverture.~~
 - ~~Réintégrer les résultats ePub 2 au kit (même si déprécié).~~
-- Compléter ARIA + les inflections `epub:type`.
+- ~~Compléter ARIA + les inflections `epub:type`.~~
 - ~~Ajouter des contenus SVG, MathML, etc.~~
-- Vérifier que tout est OK au niveau structure, sémantique, etc.
+- ~~Vérifier que tout est OK au niveau structure, sémantique, etc.~~
+- Trouver des cas d'écoles, des pièges bien relous pour les lecteurs d'écran.
+- Mettre à jour en [EPUB 3.2](https://w3c.github.io/publ-epub-revision/epub32/spec/epub-spec.html) (metadata, attributs ARIA role, etc.) dès la publication des specs.
 
 ### Moyen terme
 
 - Collecter et présenter les résultats.
 - Revoir les textes.
-- Mettre à jour en [EPUB 3.1](http://www.idpf.org/epub/31/spec/epub-changes.html) (metadata, attributs ARIA role, etc.).
+- ~~Mettre à jour en [EPUB 3.1](http://www.idpf.org/epub/31/spec/epub-changes.html) (metadata, attributs ARIA role, etc.).~~
 - Établir une liste de bonnes pratiques.
 
 ### Long terme
